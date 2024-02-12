@@ -8,6 +8,11 @@ public class HelloRestController {
 
     @GetMapping("/")
     public String sayHello() {
-        return "Hello world!";
+        return "Hello world!\nI'm using devtools!!!";
+    }
+
+    @GetMapping("/workout")
+    public String workout() {
+        return "13 planchas esta semana, y algo de cardio";
     }
 }
