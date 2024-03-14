@@ -13,6 +13,6 @@ public class HelloRestController {
 
     @GetMapping("/workout")
     public String workout() {
-        return "13 planchas esta semana, y algo de cardio";
+        return "18 planchas esta semana, y dos tandas de cardio";
     }
 }
