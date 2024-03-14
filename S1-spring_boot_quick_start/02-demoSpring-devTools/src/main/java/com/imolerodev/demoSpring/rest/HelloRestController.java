@@ -15,4 +15,11 @@ public class HelloRestController {
     public String workout() {
         return "18 planchas esta semana, y dos tandas de cardio";
     }
+
+    // publicar un nuevo endpoint
+    @GetMapping("/fortune")
+    public String fortune() {
+        return "Hoy es tu dia de suerte.";
+    }
+
 }
